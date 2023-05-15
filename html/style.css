@@ -1,0 +1,69 @@
+
+body{margin:0;padding:0;}
+.nav{background-color: rgb(230, 30, 173);padding: 0 0 0 1em;}
+.logo{font-size: 4em;margin: 0 0 0 .5em;color:rgb(12, 22, 117);font-family: 'Ultra', serif;}
+
+.boton{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;margin:.5em ;font-family: 'Sarala', sans-serif;
+   
+}
+
+.opcionboton { text-transform: uppercase;
+    padding:.5em ;  
+}
+.opcionboton:hover{ background-color: rgb(83, 4, 61);}
+
+.enlace:link, .enlace:visited, .enlace:active{background-color: rgb(238, 55, 201);
+    text-decoration: none;
+    ;}
+.cuerpoprincipal{color:rgb(28, 25, 27);
+    background-color: rgb(221, 151, 195);width:100%;min-height: 100vh;
+    }
+    .banner{display: flex;
+        flex-direction: row;
+        flex-wrap:wrap ;
+        justify-content: space-around;width: 100%;height: 40%;
+    }
+    .formulario{display: flex;
+        flex-direction: row;
+        flex-wrap:wrap ;
+        justify-content: space-around;width: 50%;float: right;}
+        .fot{width: 40%;margin:4.5em;}
+    /************tienda******************* */
+    .grupotarjetas{display: flex;
+        flex-direction: row;
+        flex-wrap:wrap ;
+        justify-content: space-around;
+    }
+
+    .tarjeta{width: 20em;
+        padding: 1em;
+        margin: 2em;
+        background-color: rgb(243, 70, 171);
+        box-shadow: 2px 2px 2px rgb(191, 14, 132);
+        border-radius: 4px;
+        transition: box-shadow .2s;
+}
+    .tarjeta:hover{box-shadow: 6px 6px 10px rgb(227, 48, 167);}
+   
+    .foto{ width: 100%;margin: 0 auto 1em auto;}
+
+    .genero, .articulo{
+     width: 100%;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+.articulo{font-size: 2em;}
+
+.adicional{width: 100%;
+text-align: center;
+margin: .5em;
+font-size: 1em;
+}
+.precio{width: 100%;
+text-align: right;
+margin: 1em  0 0 0;
+font-size: 2.5em;}
